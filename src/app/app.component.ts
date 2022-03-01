@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'InfoTacts-Frontend';
+
+  // ifArr: string[] = Array(10).fill('contacts');
 }
