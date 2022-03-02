@@ -1,27 +1,20 @@
-# InfoTactsFrontend
+Welcome to the contact book InfoTacts. In this project you have the ability to search a directory and locate alll the contacts in your book. Inside InfoTacts you are giving the capability to add more contacts and remove a contact as you see fit. All of this is done on the front-end Angular side. The back-end java is using one Model , no authentication is required and has full CRUD capabilities.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+USER STORY
 
-## Build
+As a user I should be able to click book icon to search through directory .
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+As a user I should be able to click plus symbol to add new contact info.
 
-## Running unit tests
+As a user I should be able to search by name .
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+As a user I should be able to update contact info with new information.
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+As a user i should be able to delete contacts that are no longer usable.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+As a user i should be able to add a new contact.
