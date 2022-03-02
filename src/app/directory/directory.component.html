@@ -1,6 +1,6 @@
 
 <div class="card" *ngFor="let items of data" style="width: 18rem;">
-    <img src="../../assets/191811988_4183089248379647_808939207355605925_n.jpg" class="card-img-top" alt="...">
+    <img src="../../assets/download.jpg" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">{{items.name}}</h5>
       <p class="card-text">Contact Information</p>
@@ -12,7 +12,7 @@
     </ul>
     <div class="card-body">
       <a href="#" class="card-link">{{items.email}}</a>
-      <!-- <a href="#" class="card-link">Another link</a> -->
+      <button (click)="deleteContact(items.id)">Delete</button>
     </div>
   </div>
  

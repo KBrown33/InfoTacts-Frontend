@@ -9,6 +9,7 @@ import { InfotactComponent } from './infotact/infotact.component';
 import { AddContactComponent } from './add-contact/add-contact.component';
 import { DeleteContactComponent } from './delete-contact/delete-contact.component';
 import { HttpClientModule } from  '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,8 @@ import { HttpClientModule } from  '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

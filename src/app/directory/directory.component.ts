@@ -16,4 +16,10 @@ export class DirectoryComponent implements OnInit {
   }
   ifArr: string[] = Array(10).fill('contacts');
 
+  deleteContact(id:number): void{
+    
+      this.http.delete(`http://localhost:8081/api/users/${id}`).subscribe(response =>{
+        console.log(response)
+      })
+  }
 }
